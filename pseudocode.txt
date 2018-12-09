@@ -1,0 +1,13 @@
+PROGRAM findItemInArray (function)
+  READ sourceArray (parameter)
+  READ searchItem (parameter)
+
+  LOOP THROUGH sourceArray (for loop)
+    IF current value in the array is equal to searchItem (if-else statements)
+      GIVE BACK the current position (alert, console.log)
+    OTHERWISE
+      CONTINUE looping
+    END IF
+  END LOOP
+
+END PROGRAM
